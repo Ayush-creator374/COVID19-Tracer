@@ -27,7 +27,7 @@ def listParse(list):
     print("\n**********************")
     for dic in list:
         for key in dic.keys():
-           print(key +" : "+str(dic[key]))
+           print(key  +" : "+str(dic[key]))
         print("\n",end="")
     print("\n**********************\n")
     input("Press Enter to continue....") 
