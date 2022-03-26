@@ -14,7 +14,7 @@ def parse(dic):
     # repr json data
     # iterate over every key, and print element at that key
     print("\n**********************")
-    for key in dic.keys():
+    for key in  dic.keys():
         print(key +" : "+str(dic[key]))
     print("\n**********************\n")
     input("Press Enter to continue....") 
